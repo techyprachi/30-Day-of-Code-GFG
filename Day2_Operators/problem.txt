@@ -1,0 +1,22 @@
+Day 2: Operators
+
+🔹 Task:
+- Read meal cost, tip %, and tax %.
+- Calculate total cost: meal + tip + tax.
+- Round to nearest integer and print.
+
+🔹 Input Format:
+Line 1: Float (meal cost)  
+Line 2: Integer (tip %)  
+Line 3: Integer (tax %)
+
+🔹 Output Format:
+Line 1: Total cost (rounded)
+
+🔹 Sample Input:
+12.00  
+20  
+8
+
+🔹 Sample Output:
+15
