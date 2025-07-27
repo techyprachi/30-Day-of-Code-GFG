@@ -1,0 +1,20 @@
+Day 0: Hello, World
+
+🔹 Task:
+- Read a line of input from the user.
+- Print "Hello, World." on the first line.
+- Print the input string on the second line.
+
+🔹 Input Format:
+A single line of text.
+
+🔹 Output Format:
+Line 1: Hello, World.  
+Line 2: The input string
+
+🔹 Sample Input:
+Welcome to 30 Days of Code!
+
+🔹 Sample Output:
+Hello, World.  
+Welcome to 30 Days of Code!
