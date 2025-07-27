@@ -1,0 +1,20 @@
+Day 3: Conditional Statements
+
+🔹 Task:
+Given an integer `n`, apply these rules:
+- If `n` is odd → print "Weird"
+- If `n` is even and in [2, 5] → print "Not Weird"
+- If `n` is even and in [6, 20] → print "Weird"
+- If `n` is even and > 20 → print "Not Weird"
+
+🔹 Input Format:
+One line: Integer `n` (1 ≤ n ≤ 100)
+
+🔹 Output Format:
+Print "Weird" or "Not Weird"
+
+🔹 Sample Input:
+3
+
+🔹 Sample Output:
+Weird
