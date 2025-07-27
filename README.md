@@ -1,7 +1,7 @@
 # 🌟 30 Days of Code – Python Practice
 
 Welcome to my coding journal where I explore daily challenges from **HackerRank**.  
-Each day is a step toward mastering Python 🐍—with logic, creativity, and a pinch of poetry.
+Each day is a step toward mastering Python 🐍—with logic, creativity.
 
 ---
 
