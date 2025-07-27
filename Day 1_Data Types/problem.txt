@@ -1,0 +1,27 @@
+Day 1: Data Types
+
+🔹 Task:
+- Read an integer, a float, and a string from input.
+- Add the integer to 4.
+- Add the float to 4.0 (rounded to 1 decimal place).
+- Concatenate the string with "HackerRank " at the beginning.
+
+🔹 Input Format:
+Line 1: Integer  
+Line 2: Float  
+Line 3: String
+
+🔹 Output Format:
+Line 1: Sum of integers  
+Line 2: Sum of floats (1 decimal place)  
+Line 3: Concatenated string
+
+🔹 Sample Input:
+12  
+4.0  
+is the best place to learn and practice coding!
+
+🔹 Sample Output:
+16  
+8.0  
+HackerRank is the best place to learn and practice coding!
