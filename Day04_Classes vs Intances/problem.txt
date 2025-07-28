@@ -1,0 +1,40 @@
+Day 4: Class vs. Instance
+
+🔹 Task:
+Create a `Person` class with:
+- An instance variable `age`
+- A constructor that sets `age` to 0 if input is negative, and prints a warning
+- Method `yearPasses()` to increment age by 1
+- Method `amIOld()` to print:
+  - "You are young." if age < 13
+  - "You are a teenager." if 13 ≤ age < 18
+  - "You are old." if age ≥ 18
+
+🔹 Input Format:
+First line: Integer `T` (number of test cases)  
+Next `T` lines: Integer `age` for each person
+
+🔹 Output Format:
+For each test case:
+- Print age category before and after 3 years
+
+🔹 Sample Input:
+4  
+-1  
+10  
+16  
+18
+
+🔹 Sample Output:
+Age is not valid, setting age to 0.  
+You are young.  
+You are young.
+
+You are young.  
+You are a teenager.
+
+You are a teenager.  
+You are old.
+
+You are old.  
+You are old.
