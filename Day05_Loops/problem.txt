@@ -1,0 +1,21 @@
+Day 5: Loops
+
+🔹 Task:
+Given an integer `n`, print its first 10 multiples in the format:
+n x i = result  
+(for i from 1 to 10)
+
+🔹 Input Format:
+One line: Integer `n`
+
+🔹 Output Format:
+10 lines showing the multiplication table of `n`
+
+🔹 Sample Input:
+2
+
+🔹 Sample Output:
+2 x 1 = 2  
+2 x 2 = 4  
+...  
+2 x 10 = 20
