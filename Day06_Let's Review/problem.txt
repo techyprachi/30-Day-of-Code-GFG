@@ -1,0 +1,23 @@
+Day 6: Let’s Review
+
+🔹 Task:
+Given a string `s`, print its even-indexed and odd-indexed characters as space-separated strings.
+
+🔹 Input Format:
+First line: Integer `t` (number of test cases)  
+Next `t` lines: One string per line
+
+🔹 Output Format:
+For each string, print:
+- Even-indexed characters
+- Odd-indexed characters  
+(separated by a space)
+
+🔹 Sample Input:
+2  
+Hacker  
+Rank
+
+🔹 Sample Output:
+Hce akr  
+Rn ak
