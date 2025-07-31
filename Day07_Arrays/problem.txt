@@ -1,0 +1,18 @@
+Day 7: Arrays
+
+🔹 Task:
+Given an array of integers, print its elements in reverse order as a single line of space-separated numbers.
+
+🔹 Input Format:
+Line 1: Integer `n` (size of array)  
+Line 2: `n` space-separated integers
+
+🔹 Output Format:
+Print array elements in reverse order
+
+🔹 Sample Input:
+4  
+1 4 3 2
+
+🔹 Sample Output:
+2 3 4 1
