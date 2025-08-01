@@ -1,0 +1,30 @@
+Day 8: Dictionaries and Maps
+
+🔹 Task:
+Create a phone book using a dictionary.  
+For each name queried, print:
+- name=phoneNumber if found  
+- Not found if not found
+
+🔹 Input Format:
+Line 1: Integer `n` (number of entries)  
+Next `n` lines: name phoneNumber  
+Remaining lines: names to query (until EOF)
+
+🔹 Output Format:
+One line per query:
+- name=phoneNumber or Not found
+
+🔹 Sample Input:
+3  
+sam 99912222  
+tom 11122222  
+harry 12299933  
+sam  
+edward  
+harry
+
+🔹 Sample Output:
+sam=99912222  
+Not found  
+harry=12299933
