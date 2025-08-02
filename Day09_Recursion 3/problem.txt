@@ -1,0 +1,16 @@
+Day 9: Recursion
+
+🔹 Task:
+Write a recursive function `factorial(n)` that returns the factorial of `n`.
+
+🔹 Input Format:
+One line: Integer `n` (1 ≤ n ≤ 12)
+
+🔹 Output Format:
+One line: Factorial of `n`
+
+🔹 Sample Input:
+3
+
+🔹 Sample Output:
+6
