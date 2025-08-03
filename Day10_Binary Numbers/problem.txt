@@ -1,0 +1,18 @@
+Day 10: Binary Numbers
+
+🔹 Task:
+Given an integer `n`, convert it to binary and print the maximum number of consecutive `1`s in its binary representation.
+
+🔹 Input Format:
+One line: Integer `n`
+
+🔹 Output Format:
+One line: Maximum number of consecutive `1`s
+
+🔹 Sample Input:
+5  
+13
+
+🔹 Sample Output:
+1  
+2
