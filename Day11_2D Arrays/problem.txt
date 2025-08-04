@@ -1,0 +1,26 @@
+Day 11: 2D Arrays
+
+🔹 Task:
+Given a 6×6 2D array, calculate the maximum hourglass sum.
+
+🔹 Hourglass Pattern:
+a b c  
+  d  
+e f g
+
+🔹 Input Format:
+6 lines, each with 6 space-separated integers
+
+🔹 Output Format:
+One line: Maximum hourglass sum
+
+🔹 Sample Input:
+1 1 1 0 0 0  
+0 1 0 0 0 0  
+1 1 1 0 0 0  
+0 0 2 4 4 0  
+0 0 0 2 0 0  
+0 0 1 2 4 0
+
+🔹 Sample Output:
+19
