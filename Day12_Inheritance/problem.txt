@@ -1,0 +1,25 @@
+Day 12: Inheritance
+
+🔹 Task:
+Create a `Student` class that inherits from `Person`.  
+Implement:
+- Constructor with parameters: firstName, lastName, idNumber, scores
+- Method `calculate()` that returns a grade character based on average score
+
+🔹 Grading Scale:
+90–100 → O  
+80–89  → E  
+70–79  → A  
+55–69  → P  
+40–54  → D  
+<40    → T
+
+🔹 Input Format:
+Line 1: firstName lastName idNumber  
+Line 2: Integer `n` (number of scores)  
+Line 3: `n` space-separated integers
+
+🔹 Output Format:
+Name: lastName, firstName  
+ID: idNumber  
+Grade: <grade>
