@@ -1,0 +1,22 @@
+Day 13: Abstract Classes
+
+🔹 Task:
+Create a `MyBook` class that:
+- Inherits from `Book`
+- Has a constructor with: title, author, price
+- Implements the abstract method `display()` to print:
+  Title: <title>  
+  Author: <author>  
+  Price: <price>
+
+🔹 Input Format:
+Handled by stub code. You receive:
+- Line 1: title (string)
+- Line 2: author (string)
+- Line 3: price (integer)
+
+🔹 Output Format:
+Print each property on a new line with labels:
+Title: ...  
+Author: ...  
+Price: ...
