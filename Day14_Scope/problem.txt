@@ -1,0 +1,24 @@
+Day 14: Scope
+
+🔹 Task:
+Create a `Difference` class that:
+- Stores a list of integers in a private variable `__elements`
+- Has a public variable `maximumDifference`
+- Implements `computeDifference()` to find the maximum absolute difference between any two elements
+
+🔹 Input Format:
+Line 1: Integer `n` (size of array)  
+Line 2: `n` space-separated integers
+
+🔹 Output Format:
+Print the value of `maximumDifference`
+
+🔹 Sample Input:
+3  
+1 2 5
+
+🔹 Sample Output:
+4
+
+🔹 Explanation:
+The maximum absolute difference is `|5 - 1| = 4`
