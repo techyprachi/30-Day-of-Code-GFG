@@ -1,0 +1,32 @@
+Day 15: Linked List
+
+🔹 Task:
+Complete the `insert` function that:
+- Takes a head node and an integer `data`
+- Creates a new Node with `data`
+- Inserts it at the end of the linked list
+- Returns the head of the updated list
+
+🔹 Input Format:
+Line 1: Integer `T` (number of elements to insert)  
+Next `T` lines: One integer per line to insert
+
+🔹 Output Format:
+Print the linked list elements in order, space-separated
+
+🔹 Sample Input:
+4  
+2  
+3  
+4  
+1
+
+🔹 Sample Output:
+2 3 4 1
+
+🔹 Explanation:
+- First node: 2  
+- Then 3 is added to the tail  
+- Then 4  
+- Then 1  
+Final linked list: 2 → 3 → 4 → 1
