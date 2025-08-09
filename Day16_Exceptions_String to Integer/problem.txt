@@ -1,0 +1,27 @@
+Day 16: Exceptions – String to Integer
+
+🔹 Task:
+Read a string `S` and convert it to an integer.  
+If conversion fails, print "Bad String".
+
+🔹 Input Format:
+One line: String `S`
+
+🔹 Output Format:
+Print the integer value of `S`, or "Bad String" if conversion fails
+
+🔹 Constraints:
+1 ≤ len(S) ≤ 6  
+S contains only lowercase letters or digits
+
+🔹 Sample Input 0:
+3
+
+🔹 Sample Output 0:
+3
+
+🔹 Sample Input 1:
+za
+
+🔹 Sample Output 1:
+Bad String
