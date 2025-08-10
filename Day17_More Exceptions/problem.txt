@@ -1,0 +1,32 @@
+Day 17: More Exceptions – Power Function
+
+🔹 Task:
+Create a class `Calculator` with a method `power(n, p)` that returns n raised to the power p.  
+If either `n` or `p` is negative, throw an exception with the message:  
+    n and p should be non-negative
+
+🔹 Input Format:
+- First line: Integer `T`, number of test cases  
+- Next `T` lines: Two space-separated integers `n` and `p`
+
+🔹 Output Format:
+- Print the result of `n^p` for each test case  
+- If an exception is thrown, print:  
+    n and p should be non-negative
+
+🔹 Constraints:
+- No test case will result in overflow  
+- -100 ≤ n, p ≤ 100
+
+🔹 Sample Input 0:
+4  
+3 5  
+2 4  
+-1 -2  
+-1 3  
+
+🔹 Sample Output 0:
+243  
+16  
+n and p should be non-negative  
+n and p should be non-negative  
