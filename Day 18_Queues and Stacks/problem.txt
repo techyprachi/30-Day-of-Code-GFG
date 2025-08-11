@@ -1,0 +1,31 @@
+Day 18: Stacks and Queues – Palindrome Checker
+
+🔹 Task:
+Determine whether a given string `s` is a palindrome using:
+- A stack (LIFO)
+- A queue (FIFO)
+
+🔹 Requirements:
+Implement the following methods:
+- `pushCharacter(char ch)` → pushes a character onto the stack  
+- `enqueueCharacter(char ch)` → enqueues a character into the queue  
+- `popCharacter()` → pops and returns the top character from the stack  
+- `dequeueCharacter()` → dequeues and returns the first character from the queue
+
+🔹 Input Format:
+A single string `s` (handled by stub code)
+
+🔹 Output Format:
+If `s` is a palindrome, print:  
+    The word, s, is a palindrome.  
+Otherwise, print:  
+    The word, s, is not a palindrome.
+
+🔹 Constraints:
+- `s` contains only lowercase English letters
+
+🔹 Sample Input:
+racecar
+
+🔹 Sample Output:
+The word, racecar, is a palindrome.
