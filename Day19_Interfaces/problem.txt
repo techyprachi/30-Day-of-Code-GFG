@@ -1,0 +1,30 @@
+Day 19: Interfaces – Divisor Sum
+
+🔹 Task:
+Implement a class `Calculator` that implements the `AdvancedArithmetic` interface.  
+Define the method `divisorSum(n)` which returns the sum of all divisors of `n`.
+
+🔹 Method Signature:
+int divisorSum(int n)
+
+🔹 Input Format:
+A single integer `n`
+
+🔹 Output Format:
+Print:
+1. "I implemented: AdvancedArithmetic"
+2. The result of `divisorSum(n)`
+
+🔹 Constraints:
+1 ≤ n ≤ 1000
+
+🔹 Sample Input:
+6
+
+🔹 Sample Output:
+I implemented: AdvancedArithmetic  
+12
+
+🔹 Explanation:
+Divisors of 6 are: 1, 2, 3, 6  
+Sum = 1 + 2 + 3 + 6 = 12
