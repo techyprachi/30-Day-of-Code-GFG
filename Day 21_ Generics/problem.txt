@@ -1,0 +1,32 @@
+Day 21: Generics – Print Array
+
+🔹 Task:
+Write a single generic function named `printArray`.  
+This function must take an array of generic elements and print each element on a new line.
+
+🔹 Requirements:
+- Use generics (no overloaded functions)
+- Function name must be exactly: `printArray`
+
+🔹 Input Format:
+Input is handled by locked stub code.  
+You do not need to read anything from stdin.
+
+🔹 Output Format:
+Print each element of the array on a new line.
+
+🔹 Constraints:
+- You must use generics
+- You must define exactly one function named `printArray`
+
+🔹 Sample Input:
+[1, 2, 3]  
+[a, b, c]
+
+🔹 Sample Output:
+1  
+2  
+3  
+a  
+b  
+c
