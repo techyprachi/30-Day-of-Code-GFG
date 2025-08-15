@@ -1,0 +1,33 @@
+Day 22: Binary Search Trees – Height of a BST
+
+🔹 Task:
+Complete the function `getHeight(root)` that returns the height of a binary search tree.  
+Height is defined as the number of edges from the root to the deepest leaf.
+
+🔹 Input Format:
+- First line: Integer `n`, number of nodes in the BST  
+- Next `n` lines: Each line contains an integer `data` to be inserted into the BST
+
+🔹 Output Format:
+Print a single integer — the height of the BST
+
+🔹 Constraints:
+1 ≤ n ≤ 1000  
+1 ≤ data ≤ 10⁴
+
+🔹 Sample Input:
+7  
+3  
+5  
+2  
+1  
+4  
+6  
+7
+
+🔹 Sample Output:
+3
+
+🔹 Explanation:
+The BST formed has the longest path: 3 → 5 → 6 → 7  
+This path has 3 edges, so the height is 3
