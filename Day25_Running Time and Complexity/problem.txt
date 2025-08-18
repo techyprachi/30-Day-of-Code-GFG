@@ -1,0 +1,48 @@
+Day 23: BST Level-Order Traversal – Breadth-First Search
+
+🔹 Task:
+Complete the function `levelOrder(root)` to perform a level-order traversal (BFS) of a binary search tree.  
+Print the node values in left-to-right order, level by level.
+
+🔹 Function Signature:
+- `levelOrder(root)`  
+- Parameter: `root` → reference to the root node  
+- Output: Print space-separated node values in level-order
+
+🔹 Hint:
+Use a queue to process nodes level by level.
+
+🔹 Input Format:
+- First line: Integer `n`, number of nodes  
+- Next `n` lines: Each line contains an integer `data` to be inserted into the BST
+
+🔹 Output Format:
+Print the node values in level-order traversal as a single line of space-separated integers.
+
+🔹 Constraints:
+1 ≤ n ≤ 1000  
+1 ≤ data ≤ 10⁴
+
+🔹 Sample Input:
+6  
+3  
+5  
+4  
+7  
+2  
+1
+
+🔹 Sample Output:
+3 2 5 1 4 7
+
+🔹 Explanation:
+The BST formed looks like this:
+        3  
+      /   \  
+     2     5  
+    /     / \  
+   1     4   7  
+
+Level-order traversal visits nodes:  
+→ 3 → 2 → 5 → 1 → 4 → 7  
+Print them in a single line separated by spaces.
