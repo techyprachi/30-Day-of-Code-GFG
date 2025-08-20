@@ -1,0 +1,37 @@
+🔹 Day 27: Unit Testing – Minimum Index Finder
+
+🔹 Task:
+Implement a function that returns the index of the minimum value in a given array of integers.
+
+🔹 Requirements:
+- If the array is empty → raise a ValueError with the message:
+  "Cannot get the minimum value index from an empty sequence"
+- If multiple elements share the minimum value → return the index of the first occurrence
+- Arrays are indexed from 0
+
+🔹 Function Signature:
+def minimum_index(seq: List[int]) -> int
+
+🔹 Test Data Classes to Implement:
+1. TestDataEmptyArray
+   - get_array(): returns []
+
+2. TestDataUniqueValues
+   - get_array(): returns an array of at least 2 unique integers
+   - get_expected_result(): returns the index of the minimum value
+
+3. TestDataExactlyTwoDifferentMinimums
+   - get_array(): returns an array where the minimum value occurs exactly twice
+   - get_expected_result(): returns the index of the first occurrence
+
+🔹 Constraints:
+- 1 ≤ len(array) ≤ 1000
+- All elements are integers
+- You may assume valid input unless the array is empty
+
+🔹 Sample Fix:
+The original function uses `a[i]` instead of `seq[i]`. This must be corrected.
+
+🔹 Sample Output:
+If all tests pass, print:
+OK
