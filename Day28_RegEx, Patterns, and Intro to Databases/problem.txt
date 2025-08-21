@@ -1,0 +1,37 @@
+🔹 Day 28: Regular Expressions – Gmail Filter
+
+🔹 Task:
+Given a list of names and email addresses, print an alphabetically-sorted list of first names where the email ends with "@gmail.com".
+
+🔹 Input Format:
+- First line: Integer `n`, number of entries  
+- Next `n` lines: Each line contains two space-separated strings → first name and email ID
+
+🔹 Output Format:
+Print the first names of all users with Gmail addresses, one per line, in alphabetical order.
+
+🔹 Constraints:
+- First names contain only lowercase English letters  
+- Email IDs contain lowercase letters, digits, and periods  
+- 1 ≤ len(first name) ≤ 20  
+- 1 ≤ len(email ID) ≤ 50
+
+🔹 Sample Input:
+6  
+riya riya@gmail.com  
+julia julia@julia.me  
+julia sjulia@gmail.com  
+julia julia@gmail.com  
+samantha samantha@gmail.com  
+tanya tanya@gmail.com
+
+🔹 Sample Output:
+julia  
+julia  
+riya  
+samantha  
+tanya
+
+🔹 Explanation:
+Only emails ending with "@gmail.com" are considered.  
+Their corresponding first names are collected and printed in sorted order.
