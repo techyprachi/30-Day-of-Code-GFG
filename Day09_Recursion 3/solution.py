@@ -6,26 +6,16 @@ import random
 import re
 import sys
 
-#
-# Complete the 'factorial' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts INTEGER n as parameter.
-#
-
+# Complete the factorial function below.
 def factorial(n):
+    # Base case
     if n == 0 or n == 1:
         return 1
-    else:
-        return n * factorial(n - 1)
+    # Recursive case
+    return n * factorial(n - 1)
+
 
 if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    n = int(input().strip())
-
+    n = int(input())
     result = factorial(n)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
+    print(result)
