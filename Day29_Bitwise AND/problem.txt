@@ -1,0 +1,35 @@
+🔹 Day 29: Bitwise AND – Maximum Under Limit
+
+🔹 Task:
+Given a set of integers from 1 to N, find the maximum value of `a & b` such that:
+- 1 ≤ a < b ≤ N  
+- (a & b) < K
+
+🔹 Function Signature:
+bitwiseAnd(int N, int K) → int
+
+🔹 Input Format:
+- First line: Integer `T`, number of test cases  
+- Next `T` lines: Each line contains two space-separated integers `N` and `K`
+
+🔹 Output Format:
+For each test case, print the maximum value of `a & b` that is less than `K`
+
+🔹 Constraints:
+- 1 ≤ T ≤ 1000  
+- 2 ≤ K ≤ N ≤ 10⁶
+
+🔹 Sample Input:
+3  
+5 2  
+8 5  
+2 2
+
+🔹 Sample Output:
+1  
+4  
+0
+
+🔹 Explanation:
+Test Case 1:  
+All valid (a, b)
